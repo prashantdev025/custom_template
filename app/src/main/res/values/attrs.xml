@@ -1,0 +1,6 @@
+<resources>
+
+    <declare-styleable name="CollageShapeView">
+        <attr name="shapeDrawable" format="reference" />
+    </declare-styleable>
+</resources>
