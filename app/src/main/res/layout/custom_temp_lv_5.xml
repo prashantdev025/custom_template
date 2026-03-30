@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_205sdp"
+    android:layout_gravity="center_vertical"
+    tools:context=".MainActivity">
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.editor.template.utils.CollageShapeView
+            android:id="@+id/shape1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:shapeDrawable="@drawable/custum_temp5_round_circle" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/custum_temp5_round_circle" />
+
+    </FrameLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/custum_temp5_round_circle_strock" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/_28sdp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_left_img_temp5" />
+
+    <ImageView
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_90sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_right_img_temp5" />
+
+    <ImageView
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_110sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_happy_holi" />
+</RelativeLayout>
