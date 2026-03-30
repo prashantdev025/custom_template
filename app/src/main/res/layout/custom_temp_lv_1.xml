@@ -4,15 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/_210sdp"
+    android:layout_height="@dimen/_205sdp"
     android:layout_gravity="center_vertical"
     tools:context=".MainActivity">
 
 
-    <RelativeLayout
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/ic_halloween_bg" />
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_halloween_bg"
+        android:scaleType="fitXY"
+         />
 
     <RelativeLayout
         android:layout_width="wrap_content"
