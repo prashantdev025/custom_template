@@ -1,4 +1,4 @@
-<RelativeLayout 
+<RelativeLayout
     id="@+id/main"
     layout_width="match_parent"
     layout_height="match_parent"
@@ -12,29 +12,25 @@
         scaleType="fitXY"
         src="@drawable/ic_bg_temp3" />
 
-    <ImageView
-        layout_width="match_parent"
-        layout_height="@dimen/_220sdp"
-        layout_centerInParent="true"
-        src="@drawable/custum_temp3_frame"/>
+
 
     <FrameLayout
         layout_width="match_parent"
-        layout_height="@dimen/_220sdp"
+        layout_height="@dimen/_210sdp"
         layout_centerInParent="true"
     >
 
-        <com.picture.mygallery.ui.custom.CollageShapeView
+        <com.editor.template.utils.CollageShapeView
             id="@+id/shape1"
             layout_width="match_parent"
             layout_height="match_parent"
-            shapeDrawable="@drawable/custum_temp3_frame_stroke" />
+            shapeDrawable="@drawable/custum_temp3_frame" />
 
         <ImageView
             layout_width="match_parent"
             layout_height="match_parent"
-            layout_marginHorizontal="@dimen/_12sdp"
-            layout_marginTop="@dimen/_minus6sdp"
+            layout_marginHorizontal="@dimen/_8sdp"
+            layout_marginTop="@dimen/_minus12sdp"
             src="@drawable/custum_temp3_frame_stroke" />
 
     </FrameLayout>

@@ -15,15 +15,11 @@
         android:scaleType="fitXY"
         android:src="@drawable/ic_bg_temp3" />
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_220sdp"
-        android:layout_centerInParent="true"
-        android:src="@drawable/custum_temp3_frame"/>
+
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_220sdp"
+        android:layout_height="@dimen/_210sdp"
         android:layout_centerInParent="true"
         >
 
@@ -31,13 +27,13 @@
             android:id="@+id/shape1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:shapeDrawable="@drawable/custum_temp3_frame_stroke" />
+            app:shapeDrawable="@drawable/custum_temp3_frame" />
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginHorizontal="@dimen/_12sdp"
-            android:layout_marginTop="@dimen/_minus6sdp"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_minus12sdp"
             android:src="@drawable/custum_temp3_frame_stroke" />
 
     </FrameLayout>

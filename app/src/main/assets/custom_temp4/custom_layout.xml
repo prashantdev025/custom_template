@@ -1,7 +1,7 @@
-<RelativeLayout 
+<RelativeLayout
     id="@+id/main"
     layout_width="match_parent"
-    layout_height="@dimen/_350sdp"
+    layout_height="@dimen/_380sdp"
     layout_gravity="center_vertical"
     >
 
@@ -15,7 +15,7 @@
 
     <FrameLayout
         layout_width="@dimen/_205sdp"
-        layout_height="@dimen/_90sdp"
+        layout_height="@dimen/_110sdp"
         layout_centerHorizontal="true"
         layout_marginTop="@dimen/_52sdp">
 
