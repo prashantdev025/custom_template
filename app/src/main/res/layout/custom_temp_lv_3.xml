@@ -32,8 +32,9 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginHorizontal="@dimen/_8sdp"
             android:layout_marginTop="@dimen/_minus12sdp"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_12sdp"
             android:src="@drawable/custum_temp3_frame_stroke" />
 
     </FrameLayout>
