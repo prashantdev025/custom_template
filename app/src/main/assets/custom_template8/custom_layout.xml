@@ -1,0 +1,67 @@
+<RelativeLayout 
+    id="@+id/main"
+    layout_width="match_parent"
+    layout_height="match_parent"
+    layout_gravity="center_vertical"
+    layout_marginVertical="@dimen/_20sdp"
+    >
+
+
+    <ImageView
+        layout_width="match_parent"
+        layout_height="match_parent"
+        scaleType="fitXY"
+        src="@drawable/ic_temp8_bg" />
+
+
+    
+    <RelativeLayout
+        layout_width="wrap_content"
+        layout_height="@dimen/_180sdp"
+        layout_centerInParent="true">
+
+        <FrameLayout
+            layout_width="@dimen/_140sdp"
+            layout_height="@dimen/_140sdp"
+            layout_marginStart="@dimen/_115sdp"
+            layout_marginTop="@dimen/_20sdp"
+            >
+
+            <com.appblish.templates.TemplateShapeView
+                id="@+id/shape2"
+                layout_width="match_parent"
+                layout_height="match_parent"
+                shapeDrawable="@drawable/custum_temp8_round_circle" />
+
+            <ImageView
+                layout_width="match_parent"
+                layout_height="match_parent"
+                scaleType="fitXY"
+                src="@drawable/custum_temp8_round_circle" />
+
+        </FrameLayout>
+        <FrameLayout
+            layout_width="@dimen/_140sdp"
+            layout_height="@dimen/_140sdp"
+            >
+
+            <com.appblish.templates.TemplateShapeView
+                id="@+id/shape1"
+                layout_width="match_parent"
+                layout_height="match_parent"
+                shapeDrawable="@drawable/custum_temp8_round_circle" />
+
+            <ImageView
+                layout_width="match_parent"
+                layout_height="match_parent"
+                scaleType="fitXY"
+                src="@drawable/custum_temp8_round_circle" />
+
+        </FrameLayout>
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

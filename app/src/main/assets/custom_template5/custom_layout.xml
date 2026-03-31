@@ -1,0 +1,60 @@
+<RelativeLayout 
+    id="@+id/main"
+    layout_width="match_parent"
+    layout_height="@dimen/_205sdp"
+    layout_gravity="center_vertical"
+    >
+
+
+
+
+    <FrameLayout
+        layout_width="match_parent"
+        layout_height="match_parent">
+
+        <com.appblish.templates.TemplateShapeView
+            id="@+id/shape1"
+            layout_width="match_parent"
+            layout_height="match_parent"
+            shapeDrawable="@drawable/custum_temp5_round_circle" />
+
+        <ImageView
+            layout_width="match_parent"
+            layout_height="match_parent"
+            scaleType="fitXY"
+            src="@drawable/custum_temp5_round_circle" />
+
+    </FrameLayout>
+    <ImageView
+        layout_width="match_parent"
+        layout_height="match_parent"
+        scaleType="fitXY"
+        src="@drawable/custum_temp5_round_circle_strock" />
+
+
+    <ImageView
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_alignParentBottom="true"
+        layout_marginTop="@dimen/_28sdp"
+        adjustViewBounds="true"
+        src="@drawable/ic_left_img_temp5" />
+
+    <ImageView
+        layout_width="@dimen/_70sdp"
+        layout_height="@dimen/_90sdp"
+        layout_alignParentEnd="true"
+        layout_alignParentBottom="true"
+        layout_marginTop="@dimen/_15sdp"
+        adjustViewBounds="true"
+        src="@drawable/ic_right_img_temp5" />
+
+    <ImageView
+        layout_width="@dimen/_110sdp"
+        layout_height="wrap_content"
+        layout_alignParentBottom="true"
+        layout_marginStart="@dimen/_110sdp"
+        layout_marginBottom="@dimen/_10sdp"
+        adjustViewBounds="true"
+        src="@drawable/ic_happy_holi" />
+</RelativeLayout>
