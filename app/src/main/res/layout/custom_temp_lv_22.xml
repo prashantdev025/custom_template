@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_marginVertical="@dimen/_20sdp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_temp22_bg" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_230sdp"
+        android:layout_marginStart="@dimen/_minus55sdp"
+        android:layout_marginTop="@dimen/_minus6sdp">
+
+        <com.editor.template.utils.CollageShapeView
+            android:id="@+id/shape1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:shapeDrawable="@drawable/custom_temp22_shape1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/custom_temp22_shape1_stroke" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="@dimen/_185sdp"
+        android:layout_height="@dimen/_220sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_minus10sdp"
+        android:layout_marginEnd="@dimen/_minus25sdp">
+
+        <com.editor.template.utils.CollageShapeView
+            android:id="@+id/shape2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:shapeDrawable="@drawable/custom_temp22_shape2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/custom_temp22_shape2_stroke" />
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="@dimen/_210sdp"
+        android:layout_height="@dimen/_360sdp"
+        android:layout_marginStart="@dimen/_minus45sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_minus15sdp">
+
+        <com.editor.template.utils.CollageShapeView
+            android:id="@+id/shape3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:shapeDrawable="@drawable/custom_temp22_shape3" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/custom_temp22_shape3_stroke" />
+
+    </FrameLayout>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_wrape" />
+
+
+</RelativeLayout>
