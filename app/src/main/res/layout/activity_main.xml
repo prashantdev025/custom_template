@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center_vertical">
 
-    <include layout="@layout/custom_temp_lv_9" />
+    <include layout="@layout/custom_temp_lv_19" />
 
 
 
