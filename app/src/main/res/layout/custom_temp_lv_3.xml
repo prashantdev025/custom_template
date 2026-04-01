@@ -4,57 +4,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="@dimen/_205sdp"
     android:layout_gravity="center_vertical"
-    android:layout_marginVertical="@dimen/_20sdp"
     tools:context=".MainActivity">
 
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:src="@drawable/ic_halloween_bg"
         android:scaleType="fitXY"
-        android:src="@drawable/ic_bg_temp3" />
+         />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_110sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp">
 
 
+        <FrameLayout
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="@dimen/_110sdp">
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_210sdp"
-        android:layout_centerInParent="true"
-        >
+            <com.editor.template.utils.CollageShapeView
+                android:id="@+id/shape1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:shapeDrawable="@drawable/custom_temp_round_circle" />
 
-        <com.editor.template.utils.CollageShapeView
-            android:id="@+id/shape1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:shapeDrawable="@drawable/custum_temp3_frame" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/custom_temp_round_circle_stroke" />
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="@dimen/_minus12sdp"
-            android:paddingTop="@dimen/_8sdp"
-            android:paddingBottom="@dimen/_12sdp"
-            android:src="@drawable/custum_temp3_frame_stroke" />
+        </FrameLayout>
 
-    </FrameLayout>
+        <FrameLayout
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_90sdp">
 
+            <com.editor.template.utils.CollageShapeView
+                android:id="@+id/shape2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:shapeDrawable="@drawable/custom_temp_round_circle" />
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:src="@drawable/ic_top_temp3" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/custom_temp_round_circle_stroke" />
 
+        </FrameLayout>
+    </RelativeLayout>
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:adjustViewBounds="true"
-        android:paddingHorizontal="@dimen/_minus25sdp"
-        android:src="@drawable/ic_bottom_temp3" />
+        android:src="@drawable/ic_upr_bg" />
 
 
 </RelativeLayout>

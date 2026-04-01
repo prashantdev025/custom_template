@@ -1,7 +1,7 @@
 <RelativeLayout 
     id="@+id/main"
     layout_width="match_parent"
-    layout_height="@dimen/_380sdp"
+    layout_height="@dimen/_350sdp"
     layout_gravity="center_vertical"
     >
 
@@ -9,37 +9,64 @@
     <ImageView
         layout_width="match_parent"
         layout_height="match_parent"
+        src="@drawable/ic_bg_frame2"
         scaleType="fitXY"
-        src="@drawable/ic_temp4_bg" />
+    />
 
-
-    <FrameLayout
-        layout_width="@dimen/_205sdp"
-        layout_height="@dimen/_110sdp"
-        layout_centerHorizontal="true"
-        layout_marginTop="@dimen/_52sdp">
-
-        <com.appblish.templates.TemplateShapeView
-            id="@+id/shape1"
-            layout_width="match_parent"
-            layout_height="match_parent"
-            shapeDrawable="@drawable/custum_temp4_shape" />
+    <RelativeLayout
+        layout_width="@dimen/_245sdp"
+        layout_height="@dimen/_245sdp"
+        layout_centerInParent="true">
 
         <ImageView
             layout_width="match_parent"
             layout_height="match_parent"
-            scaleType="fitXY"
-            src="@drawable/custum_temp4_shape_stroke" />
+            src="@drawable/ic_round_bg_blue" />
 
-    </FrameLayout>
+        <FrameLayout
+            layout_width="@dimen/_205sdp"
+            layout_height="@dimen/_205sdp"
+            layout_centerInParent="true">
 
+            <com.appblish.templates.TemplateShapeView
+                id="@+id/shape1"
+                layout_width="match_parent"
+                layout_height="match_parent"
+                shapeDrawable="@drawable/custum_temp_round_circle2" />
+
+            <ImageView
+                layout_width="match_parent"
+                layout_height="match_parent"
+                scaleType="fitXY"
+                src="@drawable/custum_temp_round_circle2_stroke" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
 
     <ImageView
-        layout_width="@dimen/_60sdp"
-        layout_height="@dimen/_50sdp"
-        layout_centerHorizontal="true"
-        layout_marginTop="@dimen/_10sdp"
-        src="@drawable/ic_temp4_helloween" />
+        layout_width="@dimen/_130sdp"
+        layout_height="wrap_content"
+        layout_marginTop="@dimen/_15sdp"
+        adjustViewBounds="true"
+        src="@drawable/ic_top_upr_left" />
+
+    <ImageView
+        layout_width="@dimen/_80sdp"
+        layout_height="wrap_content"
+        layout_alignParentEnd="true"
+        layout_marginTop="@dimen/_28sdp"
+        layout_marginEnd="@dimen/_8sdp"
+        adjustViewBounds="true"
+        src="@drawable/ic_top_upr_right" />
+
+    <ImageView
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_alignParentBottom="true"
+        adjustViewBounds="true"
+        paddingHorizontal="@dimen/_minus25sdp"
+        src="@drawable/ic_bottom" />
 
 
 </RelativeLayout>

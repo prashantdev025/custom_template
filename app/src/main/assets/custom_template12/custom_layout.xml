@@ -1,56 +1,42 @@
 <RelativeLayout 
     id="@+id/main"
     layout_width="match_parent"
-    layout_height="match_parent"
+    layout_height="@dimen/_350sdp"
     layout_gravity="center_vertical"
-    layout_marginVertical="@dimen/_20sdp"
     >
 
 
     <ImageView
         layout_width="match_parent"
         layout_height="match_parent"
+        src="@drawable/ic_temp10_bg"
         scaleType="fitXY"
-        src="@drawable/ic_temp12_bg" />
+        />
 
-
-    
 
     <RelativeLayout
-        layout_width="match_parent"
-        layout_height="wrap_content"
-        paddingHorizontal="@dimen/_minus5sdp"
-        layout_marginTop="@dimen/_minus5sdp">
+        layout_width="wrap_content"
+        layout_height="@dimen/_115sdp"
+        layout_centerInParent="true"
+        >
         <FrameLayout
-            layout_width="match_parent"
-            layout_height="@dimen/_270sdp"
-            >
+            layout_width="@dimen/_200sdp"
+            layout_height="@dimen/_100sdp"
+          >
 
             <com.appblish.templates.TemplateShapeView
-                id="@+id/shape2"
+                id="@+id/shape1"
                 layout_width="match_parent"
                 layout_height="match_parent"
-                shapeDrawable="@drawable/custum_temp12_shape" />
+                shapeDrawable="@drawable/custom_temp10_shape" />
 
             <ImageView
                 layout_width="match_parent"
                 layout_height="match_parent"
                 scaleType="fitXY"
-                src="@drawable/custum_temp12_shape_strock" />
+                src="@drawable/custom_temp10_shape_stroke" />
 
         </FrameLayout>
     </RelativeLayout>
-
-
-    <ImageView
-        layout_width="match_parent"
-        layout_height="@dimen/_200sdp"
-        adjustViewBounds="true"
-        layout_marginTop="@dimen/_130sdp"
-        src="@drawable/ic_diya" />
-
-
-
-
 
 </RelativeLayout>

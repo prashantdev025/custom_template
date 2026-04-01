@@ -4,60 +4,57 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/_205sdp"
+    android:layout_height="match_parent"
     android:layout_gravity="center_vertical"
+    android:layout_marginVertical="@dimen/_20sdp"
     tools:context=".MainActivity">
 
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_bg_temp3" />
 
 
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="@dimen/_210sdp"
+        android:layout_centerInParent="true"
+        >
 
         <com.editor.template.utils.CollageShapeView
             android:id="@+id/shape1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:shapeDrawable="@drawable/custum_temp5_round_circle" />
+            app:shapeDrawable="@drawable/custum_temp3_frame" />
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:scaleType="fitXY"
-            android:src="@drawable/custum_temp5_round_circle" />
+            android:layout_marginTop="@dimen/_minus12sdp"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_12sdp"
+            android:src="@drawable/custum_temp3_frame_stroke" />
 
     </FrameLayout>
+
+
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="fitXY"
-        android:src="@drawable/custum_temp5_round_circle_strock" />
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_top_temp3" />
 
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="@dimen/_28sdp"
         android:adjustViewBounds="true"
-        android:src="@drawable/ic_left_img_temp5" />
+        android:paddingHorizontal="@dimen/_minus25sdp"
+        android:src="@drawable/ic_bottom_temp3" />
 
-    <ImageView
-        android:layout_width="@dimen/_70sdp"
-        android:layout_height="@dimen/_90sdp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="@dimen/_15sdp"
-        android:adjustViewBounds="true"
-        android:src="@drawable/ic_right_img_temp5" />
 
-    <ImageView
-        android:layout_width="@dimen/_110sdp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="@dimen/_110sdp"
-        android:layout_marginBottom="@dimen/_10sdp"
-        android:adjustViewBounds="true"
-        android:src="@drawable/ic_happy_holi" />
 </RelativeLayout>

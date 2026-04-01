@@ -1,7 +1,7 @@
-<RelativeLayout 
+<RelativeLayout
     id="@+id/main"
     layout_width="match_parent"
-    layout_height="@dimen/_205sdp"
+    layout_height="@dimen/_380sdp"
     layout_gravity="center_vertical"
     >
 
@@ -10,146 +10,169 @@
         layout_width="match_parent"
         layout_height="match_parent"
         scaleType="fitXY"
-        src="@drawable/ic_temp13_bg" />
-
+        src="@drawable/ic_temp11_bg" />
 
     <LinearLayout
-        layout_width="match_parent"
-        layout_height="match_parent"
-        layout_margin="@dimen/_10sdp"
-        weightSum="5"
-        orientation="horizontal">
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_centerHorizontal="true"
+        layout_marginTop="@dimen/_60sdp"
+        orientation="vertical">
 
-        <RelativeLayout
-            layout_width="0dp"
-            layout_height="match_parent"
-            layout_weight="1.7"
-            layout_marginStart="@dimen/_10sdp">
+        <LinearLayout
+            layout_width="wrap_content"
+            layout_height="0dp"
+            orientation="horizontal"
+            weightSum="2"
+            padding="@dimen/_3sdp"
+            layout_weight="1">
             <FrameLayout
-                layout_width="match_parent"
-                layout_height="match_parent"
-                layout_marginTop="@dimen/_55sdp"
-                >
-
-                <com.appblish.templates.TemplateShapeView
-                    id="@+id/shape2"
-                    layout_width="match_parent"
-                    layout_height="match_parent"
-                    shapeDrawable="@drawable/custum_temp13_shape2" />
-
-                <ImageView
-                    layout_width="match_parent"
-                    layout_height="match_parent"
-                    scaleType="fitXY"
-                    src="@drawable/custum_temp13_shape2" />
-
-            </FrameLayout>
-
-            <FrameLayout
-                layout_width="@dimen/_80sdp"
-                layout_height="@dimen/_80sdp"
-                layout_alignParentEnd="true"
-                padding="@dimen/_5sdp"
-                layout_marginTop="@dimen/_5sdp"
+                layout_width="@dimen/_90sdp"
+                layout_height="@dimen/_90sdp"
                 >
 
                 <com.appblish.templates.TemplateShapeView
                     id="@+id/shape1"
                     layout_width="match_parent"
                     layout_height="match_parent"
-                    shapeDrawable="@drawable/custum_temp13_shape1" />
+                    shapeDrawable="@drawable/custum_temp11_shape1" />
 
                 <ImageView
                     layout_width="match_parent"
                     layout_height="match_parent"
                     scaleType="fitXY"
-                    src="@drawable/custum_temp13_shape1_strock" />
+                    src="@drawable/custum_temp11_shape1_strock" />
 
             </FrameLayout>
+            <LinearLayout
+                layout_width="@dimen/_45sdp"
+                layout_height="@dimen/_90sdp"
+                orientation="vertical"
+                weightSum="2"
+                >
+                <FrameLayout
+                    layout_width="match_parent"
+                    layout_weight="1"
+                    padding="@dimen/_3sdp"
+                    layout_height="0dp"
+                    >
 
-        </RelativeLayout>
+                    <com.appblish.templates.TemplateShapeView
+                        id="@+id/shape3"
+                        layout_width="match_parent"
+                        layout_height="match_parent"
+                        shapeDrawable="@drawable/custum_temp11_shape1" />
+
+                    <ImageView
+                        layout_width="match_parent"
+                        layout_height="match_parent"
+                        scaleType="fitXY"
+                        src="@drawable/custum_temp11_shape1_strock" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    layout_width="match_parent"
+                    layout_weight="1"
+                    padding="@dimen/_3sdp"
+                    layout_height="0dp"
+                    >
+
+                    <com.appblish.templates.TemplateShapeView
+                        id="@+id/shape2"
+                        layout_width="match_parent"
+                        layout_height="match_parent"
+                        shapeDrawable="@drawable/custum_temp11_shape1" />
+
+                    <ImageView
+                        layout_width="match_parent"
+                        layout_height="match_parent"
+                        scaleType="fitXY"
+                        src="@drawable/custum_temp11_shape1_strock" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+        </LinearLayout>
 
         <LinearLayout
-            layout_width="0dp"
-            layout_height="match_parent"
-            layout_weight="3.3"
-            orientation="vertical"
-            weightSum="2">
+            layout_width="wrap_content"
+            layout_height="0dp"
+            orientation="horizontal"
+            weightSum="2"
+            padding="@dimen/_3sdp"
+            layout_weight="1">
+            <LinearLayout
+                layout_width="@dimen/_45sdp"
+                layout_height="@dimen/_90sdp"
+                orientation="vertical"
+                weightSum="2"
+                >
+                <FrameLayout
+                    layout_width="match_parent"
+                    layout_weight="1"
+                    padding="@dimen/_3sdp"
+                    layout_height="0dp"
+                    >
 
+                    <com.appblish.templates.TemplateShapeView
+                        id="@+id/shape4"
+                        layout_width="match_parent"
+                        layout_height="match_parent"
+                        shapeDrawable="@drawable/custum_temp11_shape1" />
+
+                    <ImageView
+                        layout_width="match_parent"
+                        layout_height="match_parent"
+                        scaleType="fitXY"
+                        src="@drawable/custum_temp11_shape1_strock" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    layout_width="match_parent"
+                    layout_weight="1"
+                    padding="@dimen/_3sdp"
+                    layout_height="0dp"
+                    >
+
+                    <com.appblish.templates.TemplateShapeView
+                        id="@+id/shape5"
+                        layout_width="match_parent"
+                        layout_height="match_parent"
+                        shapeDrawable="@drawable/custum_temp11_shape1" />
+
+                    <ImageView
+                        layout_width="match_parent"
+                        layout_height="match_parent"
+                        scaleType="fitXY"
+                        src="@drawable/custum_temp11_shape1_strock" />
+
+                </FrameLayout>
+            </LinearLayout>
             <FrameLayout
-                layout_width="match_parent"
-                layout_height="0dp"
-                layout_weight="1.1"
-                layout_marginTop="@dimen/_5sdp"
-                paddingHorizontal="@dimen/_8sdp"
+                layout_width="@dimen/_90sdp"
+                layout_height="@dimen/_90sdp"
                 >
 
                 <com.appblish.templates.TemplateShapeView
-                    id="@+id/shape4"
+                    id="@+id/shape6"
                     layout_width="match_parent"
                     layout_height="match_parent"
-                    shapeDrawable="@drawable/custum_temp13_shape4" />
+                    shapeDrawable="@drawable/custum_temp11_shape1" />
 
                 <ImageView
                     layout_width="match_parent"
                     layout_height="match_parent"
                     scaleType="fitXY"
-                    src="@drawable/custum_temp13_shape4" />
-
-            </FrameLayout>
-
-            <FrameLayout
-                layout_width="match_parent"
-                layout_height="0dp"
-                layout_weight="0.9"
-                layout_marginVertical="@dimen/_5sdp"
-                paddingHorizontal="@dimen/_8sdp"
-                >
-
-                <com.appblish.templates.TemplateShapeView
-                    id="@+id/shape3"
-                    layout_width="match_parent"
-                    layout_height="match_parent"
-                    shapeDrawable="@drawable/custum_temp13_shape3" />
-
-                <ImageView
-                    layout_width="match_parent"
-                    layout_height="match_parent"
-                    scaleType="fitXY"
-                    src="@drawable/custum_temp13_shape3" />
+                    src="@drawable/custum_temp11_shape1_strock" />
 
             </FrameLayout>
 
 
         </LinearLayout>
 
-
-
     </LinearLayout>
 
 
-    <ImageView
-        layout_width="@dimen/_90sdp"
-        layout_height="wrap_content"
-        layout_alignParentBottom="true"
-        adjustViewBounds="true"
-        padding="@dimen/_12sdp"
-        src="@drawable/ic_temp13_bottom_laft" />
-
-    <ImageView
-        layout_width="@dimen/_80sdp"
-        layout_height="wrap_content"
-        layout_alignParentEnd="true"
-        layout_alignParentBottom="true"
-        adjustViewBounds="true"
-        padding="@dimen/_12sdp"
-        src="@drawable/ic_temp13_bottom_right" />
-
-    <ImageView
-        layout_width="@dimen/_55sdp"
-        layout_height="wrap_content"
-        adjustViewBounds="true"
-        layout_marginTop="@dimen/_5sdp"
-        padding="@dimen/_4sdp"
-        src="@drawable/ic_temp13_top_laft" />
 </RelativeLayout>
