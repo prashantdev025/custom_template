@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_310sdp"
+    android:layout_gravity="center_vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_temp28_bg" />
+
+
+    <FrameLayout
+        android:layout_width="@dimen/_290sdp"
+        android:layout_height="@dimen/_275sdp"
+        >
+
+        <com.editor.template.utils.CollageShapeView
+            android:id="@+id/shape1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:shapeDrawable="@drawable/custum_temp28_shape1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/custum_temp28_shape1_strock" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="@dimen/_75sdp"
+        android:layout_height="@dimen/_75sdp"
+        android:layout_marginStart="@dimen/_minus15sdp"
+        android:layout_marginTop="@dimen/_70sdp">
+
+        <com.editor.template.utils.CollageShapeView
+            android:id="@+id/shape3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:shapeDrawable="@drawable/custum_temp28_shape3" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/custum_temp28_shape3_strock" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="@dimen/_75sdp"
+        android:layout_height="@dimen/_75sdp"
+        android:layout_marginStart="@dimen/_minus4sdp">
+
+        <com.editor.template.utils.CollageShapeView
+            android:id="@+id/shape2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:shapeDrawable="@drawable/custum_temp28_shape2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/custum_temp28_shape2_strock" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="@dimen/_75sdp"
+        android:layout_height="@dimen/_75sdp"
+        android:layout_marginStart="@dimen/_65sdp">
+
+        <com.editor.template.utils.CollageShapeView
+            android:id="@+id/shape4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:shapeDrawable="@drawable/custum_temp28_shape3" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/custum_temp28_shape3_strock" />
+
+    </FrameLayout>
+
+
+    <ImageView
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_55sdp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_temp28_flower1" />
+
+    <ImageView
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_temp28_flower2" />
+
+    <ImageView
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_temp28_tape" />
+
+    <ImageView
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:adjustViewBounds="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_temp28_tape2" />
+
+    <ImageView
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_28sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_temp28_flower" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_temp28_bottom" />
+
+
+</RelativeLayout>
