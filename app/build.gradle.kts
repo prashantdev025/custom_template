@@ -44,6 +44,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-
+    implementation("androidx.asynclayoutinflater:asynclayoutinflater:1.0.0")
     implementation("com.intuit.sdp:sdp-android:1.1.1")
 }
