@@ -4,11 +4,10 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
-
+    //custom_template27
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -16,8 +15,8 @@ class MainActivity : AppCompatActivity() {
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
         recyclerView.layoutManager = GridLayoutManager(this,2)
 
-        // Build list from frame 3 to frame 25 (23 items)
-        val templateItems = (3..26).map { frameNumber ->
+        // frame
+        val templateItems = (3..27).map { frameNumber ->
             val resId = resources.getIdentifier(
                 "custom_temp_lv_$frameNumber", "layout", packageName
             )
