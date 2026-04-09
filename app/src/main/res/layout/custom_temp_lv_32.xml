@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/_215sdp"
         android:layout_alignParentBottom="true"
-        android:layout_marginHorizontal="@dimen/_45sdp"
+        android:layout_marginHorizontal="@dimen/_50sdp"
         >
 
         <com.editor.template.utils.CollageShapeView
