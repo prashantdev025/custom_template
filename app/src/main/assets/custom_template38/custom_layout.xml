@@ -1,0 +1,193 @@
+<RelativeLayout 
+    id="@+id/main"
+    layout_width="match_parent"
+    layout_height="match_parent"
+    layout_gravity="center_vertical"
+    layout_marginVertical="@dimen/_20sdp">
+
+
+    <ImageView
+        layout_width="match_parent"
+        layout_height="match_parent"
+        scaleType="fitXY"
+        src="@drawable/frame38_bg" />
+
+
+    <LinearLayout
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginHorizontal="@dimen/_10sdp"
+        layout_marginTop="@dimen/_100sdp"
+        orientation="horizontal">
+
+
+        <LinearLayout
+            layout_width="0dp"
+            layout_height="wrap_content"
+            layout_weight="1"
+            orientation="vertical">
+
+
+            <FrameLayout
+                layout_width="match_parent"
+                layout_height="@dimen/_110sdp">
+
+                <com.appblish.templates.TemplateShapeView
+                    id="@+id/shape1"
+                    layout_width="match_parent"
+                    layout_height="match_parent"
+                    shapeDrawable="@drawable/custom_temp38_shape1" />
+
+                <ImageView
+                    layout_width="match_parent"
+                    layout_height="match_parent"
+                    scaleType="fitXY"
+                    src="@drawable/custom_temp38_shape1_stroke" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                layout_width="match_parent"
+                layout_height="@dimen/_110sdp"
+                layout_marginTop="@dimen/_10sdp">
+
+                <com.appblish.templates.TemplateShapeView
+                    id="@+id/shape2"
+                    layout_width="match_parent"
+                    layout_height="match_parent"
+                    shapeDrawable="@drawable/custom_temp38_shape1" />
+
+                <ImageView
+                    layout_width="match_parent"
+                    layout_height="match_parent"
+                    scaleType="fitXY"
+                    src="@drawable/custom_temp38_shape1_stroke" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                layout_width="match_parent"
+                layout_height="@dimen/_115sdp"
+                layout_marginTop="@dimen/_10sdp">
+
+                <com.appblish.templates.TemplateShapeView
+                    id="@+id/shape3"
+                    layout_width="match_parent"
+                    layout_height="match_parent"
+                    shapeDrawable="@drawable/custom_temp38_shape3" />
+
+                <ImageView
+                    layout_width="match_parent"
+                    layout_height="match_parent"
+                    scaleType="fitXY"
+                    src="@drawable/custom_temp38_shape3_stroke" />
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            layout_width="0dp"
+            layout_height="wrap_content"
+            layout_marginStart="@dimen/_10sdp"
+            layout_weight="1"
+            orientation="vertical">
+
+
+            <FrameLayout
+                layout_width="match_parent"
+                layout_height="@dimen/_150sdp">
+
+                <com.appblish.templates.TemplateShapeView
+                    id="@+id/shape4"
+                    layout_width="match_parent"
+                    layout_height="match_parent"
+                    shapeDrawable="@drawable/custom_temp38_shape4" />
+
+                <ImageView
+                    layout_width="match_parent"
+                    layout_height="match_parent"
+                    scaleType="fitXY"
+                    src="@drawable/custom_temp38_shape4_stroke" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                layout_width="match_parent"
+                layout_height="@dimen/_120sdp"
+                layout_marginTop="@dimen/_10sdp">
+
+                <com.appblish.templates.TemplateShapeView
+                    id="@+id/shape5"
+                    layout_width="match_parent"
+                    layout_height="match_parent"
+                    shapeDrawable="@drawable/custom_temp38_shape5" />
+
+                <ImageView
+                    layout_width="match_parent"
+                    layout_height="match_parent"
+                    scaleType="fitXY"
+                    src="@drawable/custom_temp38_shape5_stroke" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                layout_width="match_parent"
+                layout_height="@dimen/_120sdp"
+                layout_marginTop="@dimen/_10sdp">
+
+                <com.appblish.templates.TemplateShapeView
+                    id="@+id/shape6"
+                    layout_width="match_parent"
+                    layout_height="match_parent"
+                    shapeDrawable="@drawable/custom_temp38_shape5" />
+
+                <ImageView
+                    layout_width="match_parent"
+                    layout_height="match_parent"
+                    scaleType="fitXY"
+                    src="@drawable/custom_temp38_shape5_stroke" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <ImageView
+        layout_width="@dimen/_25sdp"
+        layout_height="@dimen/_25sdp"
+        layout_centerHorizontal="true"
+        layout_marginTop="@dimen/_115sdp"
+        adjustViewBounds="true"
+        src="@drawable/frame38_ele3" />
+
+    <ImageView
+        layout_width="@dimen/_25sdp"
+        layout_height="@dimen/_25sdp"
+        layout_marginStart="@dimen/_60sdp"
+        layout_marginTop="@dimen/_200sdp"
+        adjustViewBounds="true"
+        src="@drawable/frame38_ele4" />
+
+    <ImageView
+        layout_width="@dimen/_80sdp"
+        layout_height="@dimen/_60sdp"
+        layout_alignParentBottom="true"
+        layout_centerHorizontal="true"
+        layout_marginBottom="@dimen/_170sdp"
+        adjustViewBounds="true"
+        src="@drawable/frame38_ele2" />
+
+    <ImageView
+        layout_width="@dimen/_110sdp"
+        layout_height="@dimen/_110sdp"
+        layout_alignParentEnd="true"
+        layout_alignParentBottom="true"
+        layout_marginBottom="@dimen/_10sdp"
+        adjustViewBounds="true"
+        src="@drawable/frame38_ele1" />
+
+</RelativeLayout>
