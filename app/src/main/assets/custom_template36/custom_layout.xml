@@ -1,0 +1,68 @@
+<RelativeLayout 
+    id="@+id/main"
+    layout_width="match_parent"
+    layout_height="@dimen/_310sdp"
+    layout_gravity="center_vertical">
+
+
+    <ImageView
+        layout_width="match_parent"
+        layout_height="match_parent"
+        scaleType="fitXY"
+        src="@drawable/ic_temp36_bg" />
+
+    <FrameLayout
+        layout_width="match_parent"
+        layout_height="match_parent"
+        layout_centerInParent="true"
+        layout_marginHorizontal="@dimen/_50sdp"
+        layout_marginVertical="@dimen/_40sdp">
+
+        <com.appblish.templates.TemplateShapeView
+            id="@+id/shape1"
+            layout_width="match_parent"
+            layout_height="match_parent"
+            shapeDrawable="@drawable/custom_temp36_shape" />
+
+        <ImageView
+            layout_width="match_parent"
+            layout_height="match_parent"
+            scaleType="fitXY"
+            src="@drawable/custom_temp36_shape_stroke" />
+
+    </FrameLayout>
+
+    <ImageView
+        layout_width="@dimen/_40sdp"
+        layout_height="wrap_content"
+        layout_marginStart="@dimen/_30sdp"
+        layout_marginTop="@dimen/_25sdp"
+        adjustViewBounds="true"
+        src="@drawable/frame36_ele4" />
+
+    <ImageView
+        layout_width="@dimen/_70sdp"
+        layout_height="wrap_content"
+        layout_alignParentEnd="true"
+        layout_alignParentBottom="true"
+        adjustViewBounds="true"
+        src="@drawable/frame36_ele1" />
+
+    <ImageView
+        layout_width="@dimen/_60sdp"
+        layout_height="wrap_content"
+        layout_alignParentEnd="false"
+        layout_alignParentBottom="true"
+        layout_marginStart="@dimen/_8sdp"
+        adjustViewBounds="true"
+        src="@drawable/frame36_ele2" />
+
+    <ImageView
+        layout_width="@dimen/_90sdp"
+        layout_height="wrap_content"
+        layout_alignParentEnd="true"
+        layout_marginStart="@dimen/_8sdp"
+        layout_marginTop="@dimen/_5sdp"
+        adjustViewBounds="true"
+        src="@drawable/frame36_ele3" />
+</RelativeLayout>
