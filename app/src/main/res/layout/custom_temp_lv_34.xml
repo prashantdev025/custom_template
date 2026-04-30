@@ -14,91 +14,176 @@
         android:scaleType="fitXY"
         android:src="@drawable/ic_temp34_bg" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
 
-    <FrameLayout
-        android:layout_width="@dimen/_135sdp"
-        android:layout_height="@dimen/_110sdp"
-        android:layout_marginStart="@dimen/_15sdp"
-        android:layout_marginTop="@dimen/_40sdp">
-
-        <com.editor.template.utils.CollageShapeView
-            android:id="@+id/shape1"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:shapeDrawable="@drawable/costom_temp34_shape1" />
+            android:layout_height="wrap_content">
 
-        <ImageView
+
+            <FrameLayout
+                android:layout_width="@dimen/_135sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_40sdp">
+
+                <com.editor.template.utils.CollageShapeView
+                    android:id="@+id/shape1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:shapeDrawable="@drawable/costom_temp34_shape1" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/costom_temp34_shape1_strock" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="@dimen/_125sdp"
+                android:layout_height="@dimen/_190sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_marginEnd="@dimen/_15sdp">
+
+                <com.editor.template.utils.CollageShapeView
+                    android:id="@+id/shape2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:shapeDrawable="@drawable/costom_temp34_shape2" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/costom_temp34_shape2_strock" />
+
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="@dimen/_155sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_240sdp"
+                android:layout_marginEnd="@dimen/_15sdp">
+
+                <com.editor.template.utils.CollageShapeView
+                    android:id="@+id/shape3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:shapeDrawable="@drawable/costom_temp34_shape3" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/costom_temp34_shape3_strock" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="@dimen/_110sdp"
+                android:layout_height="@dimen/_175sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_185sdp">
+
+                <com.editor.template.utils.CollageShapeView
+                    android:id="@+id/shape4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:shapeDrawable="@drawable/costom_temp34_shape4" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/costom_temp34_shape4_strock" />
+
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginStart="@dimen/_90sdp"
+                android:layout_marginTop="@dimen/_170sdp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_temp34_ele6" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="fitXY"
-            android:src="@drawable/costom_temp34_shape1_strock" />
+            android:layout_height="wrap_content">
 
-    </FrameLayout>
+            <FrameLayout
+                android:layout_width="@dimen/_185sdp"
+                android:layout_height="@dimen/_130sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp">
 
-    <FrameLayout
-        android:layout_width="@dimen/_130sdp"
-        android:layout_height="@dimen/_170sdp"
-        android:layout_marginEnd="@dimen/_15sdp"
+                <com.editor.template.utils.CollageShapeView
+                    android:id="@+id/shape5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:shapeDrawable="@drawable/costom_temp34_shape5" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/costom_temp34_shape5_strock" />
+
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="@dimen/_115sdp"
+                android:layout_height="@dimen/_130sdp"
+                android:layout_alignParentBottom="true"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_temp34_ele2" />
+
+            <ImageView
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginStart="@dimen/_140sdp"
+                android:layout_marginTop="@dimen/_115sdp"
+                android:src="@drawable/ic_temp34_ele3" />
+
+            <ImageView
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="@dimen/_55sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:src="@drawable/ic_temp34_ele1" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/_85sdp"
+        android:layout_height="@dimen/_215sdp"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="@dimen/_30sdp">
+        android:layout_marginStart="@dimen/_90sdp"
+        android:layout_marginTop="@dimen/_170sdp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_temp34_ele5" />
 
-        <com.editor.template.utils.CollageShapeView
-            android:id="@+id/shape2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:shapeDrawable="@drawable/costom_temp34_shape2" />
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="fitXY"
-            android:src="@drawable/costom_temp34_shape2_strock" />
-
-    </FrameLayout>
-
-
-    <FrameLayout
-        android:layout_width="@dimen/_155sdp"
-        android:layout_height="@dimen/_110sdp"
-        android:layout_marginEnd="@dimen/_15sdp"
+    <ImageView
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="@dimen/_230sdp">
-
-        <com.editor.template.utils.CollageShapeView
-            android:id="@+id/shape3"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:shapeDrawable="@drawable/costom_temp34_shape3" />
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="fitXY"
-            android:src="@drawable/costom_temp34_shape3_strock" />
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:layout_width="@dimen/_110sdp"
-        android:layout_height="@dimen/_170sdp"
-        android:layout_marginStart="@dimen/_15sdp"
-        android:layout_marginTop="@dimen/_170sdp">
-
-        <com.editor.template.utils.CollageShapeView
-            android:id="@+id/shape4"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:shapeDrawable="@drawable/costom_temp34_shape4" />
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="fitXY"
-            android:src="@drawable/costom_temp34_shape4_strock" />
-
-    </FrameLayout>
-
-
-
+        android:layout_marginStart="@dimen/_90sdp"
+        android:layout_marginTop="@dimen/_320sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_temp34_ele4" />
 
 </RelativeLayout>

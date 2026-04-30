@@ -4,7 +4,7 @@
     layout_height="match_parent"
     layout_gravity="center_vertical"
     layout_marginVertical="@dimen/_20sdp"
-    >
+>
 
 
     <ImageView
