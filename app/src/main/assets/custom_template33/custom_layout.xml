@@ -1,0 +1,42 @@
+<RelativeLayout 
+    id="@+id/main"
+    layout_width="match_parent"
+    layout_height="@dimen/_350sdp"
+    layout_gravity="center_vertical">
+
+
+    <ImageView
+        layout_width="match_parent"
+        layout_height="match_parent"
+        scaleType="fitXY"
+        src="@drawable/ic_temp33_bg" />
+
+
+    <FrameLayout
+        layout_width="match_parent"
+        layout_height="@dimen/_254sdp"
+        layout_marginHorizontal="@dimen/_70sdp"
+        layout_marginTop="@dimen/_33sdp">
+
+        <com.appblish.templates.TemplateShapeView
+            id="@+id/shape1"
+            layout_width="match_parent"
+            layout_height="match_parent"
+            shapeDrawable="@drawable/costom_temp33_shape" />
+
+        <ImageView
+            layout_width="match_parent"
+            layout_height="match_parent"
+            scaleType="fitXY"
+            src="@drawable/costom_temp33_shape_strock" />
+
+    </FrameLayout>
+
+
+    <ImageView
+        layout_width="@dimen/_100sdp"
+        layout_height="@dimen/_100sdp"
+        layout_alignParentBottom="true"
+        layout_marginBottom="@dimen/_33sdp"
+        src="@drawable/ic_temp33_ele1" />
+</RelativeLayout>

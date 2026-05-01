@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_310sdp"
+    android:layout_gravity="center_vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/frame48_bg" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_260sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_15sdp">
+
+        <FrameLayout
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:elevation="@dimen/_6sdp">
+
+            <com.editor.template.utils.CollageShapeView
+                android:id="@+id/shape1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:shapeDrawable="@drawable/custom_temp48_shape1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/custom_temp48_shape1_stroke" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/f2"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_75sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_85sdp"
+            android:elevation="@dimen/_5sdp">
+
+            <com.editor.template.utils.CollageShapeView
+                android:id="@+id/shape2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:shapeDrawable="@drawable/custom_temp48_shape2" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/custom_temp48_shape2_stroke" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/f3"
+            android:layout_width="@dimen/_135sdp"
+            android:layout_height="@dimen/_95sdp"
+            android:layout_below="@+id/f2"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_minus10sdp">
+
+            <com.editor.template.utils.CollageShapeView
+                android:id="@+id/shape3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:shapeDrawable="@drawable/custom_temp48_shape3" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/custom_temp48_shape3_stroke" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/f4"
+            android:layout_width="@dimen/_145sdp"
+            android:layout_height="@dimen/_110sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/_25sdp">
+
+            <com.editor.template.utils.CollageShapeView
+                android:id="@+id/shape4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:shapeDrawable="@drawable/custom_temp48_shape4" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/custom_temp48_shape4_stroke" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/f5"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_below="@+id/f4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_25sdp"
+            android:elevation="@dimen/_5sdp">
+
+            <com.editor.template.utils.CollageShapeView
+                android:id="@+id/shape5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:shapeDrawable="@drawable/custom_temp48_shape5" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/custom_temp48_shape5_stroke" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/frame48_ele2" />
+
+    <ImageView
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/frame48_ele3" />
+
+    <ImageView
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/frame48_ele1" />
+
+    <ImageView
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:adjustViewBounds="true"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/frame48_ele4" />
+
+</RelativeLayout>
