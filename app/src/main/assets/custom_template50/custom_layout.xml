@@ -1,0 +1,130 @@
+<RelativeLayout 
+    id="@+id/main"
+    layout_width="match_parent"
+    layout_height="match_parent"
+    layout_gravity="center_vertical"
+    layout_marginVertical="@dimen/_20sdp">
+
+
+    <ImageView
+        layout_width="match_parent"
+        layout_height="match_parent"
+        scaleType="fitXY"
+        src="@drawable/frame50" />
+
+    <LinearLayout
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_centerInParent="true"
+        layout_marginHorizontal="@dimen/_10sdp"
+        orientation="vertical">
+
+        <FrameLayout
+            layout_width="@dimen/_160sdp"
+            layout_height="@dimen/_140sdp">
+
+            <com.appblish.templates.TemplateShapeView
+                id="@+id/shape2"
+                layout_width="match_parent"
+                layout_height="@dimen/_100sdp"
+                layout_gravity="bottom"
+                layout_marginBottom="@dimen/_15sdp"
+                shapeDrawable="@drawable/custom_temp50_shape1" />
+
+            <ImageView
+                layout_width="match_parent"
+                layout_height="match_parent"
+                scaleType="fitXY"
+                src="@drawable/custom_temp50_shape1_stroke" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            layout_width="@dimen/_220sdp"
+            layout_height="@dimen/_190sdp"
+            layout_marginStart="@dimen/_30sdp">
+
+            <com.appblish.templates.TemplateShapeView
+                id="@+id/shape1"
+                layout_width="match_parent"
+                layout_height="@dimen/_140sdp"
+                layout_gravity="bottom"
+                layout_marginBottom="@dimen/_15sdp"
+                shapeDrawable="@drawable/custom_temp50_shape1" />
+
+            <ImageView
+                layout_width="match_parent"
+                layout_height="match_parent"
+                scaleType="fitXY"
+                src="@drawable/custom_temp50_shape1_stroke" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            layout_width="@dimen/_160sdp"
+            layout_height="@dimen/_140sdp"
+            layout_gravity="end">
+
+            <com.appblish.templates.TemplateShapeView
+                id="@+id/shape3"
+                layout_width="match_parent"
+                layout_height="@dimen/_100sdp"
+                layout_gravity="bottom"
+                layout_marginBottom="@dimen/_15sdp"
+                shapeDrawable="@drawable/custom_temp50_shape1" />
+
+            <ImageView
+                layout_width="match_parent"
+                layout_height="match_parent"
+                scaleType="fitXY"
+                src="@drawable/custom_temp50_shape1_stroke" />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        layout_width="wrap_content"
+        layout_height="match_parent"
+        layout_marginTop="@dimen/_140sdp">
+
+        <ImageView
+            layout_width="@dimen/_70sdp"
+            layout_height="wrap_content"
+            layout_centerInParent="true"
+            layout_marginStart="@dimen/_20sdp"
+            adjustViewBounds="true"
+            src="@drawable/frame50_ele1" />
+
+        <ImageView
+            layout_width="@dimen/_70sdp"
+            layout_height="wrap_content"
+            layout_marginTop="@dimen/_50sdp"
+            adjustViewBounds="true"
+            src="@drawable/frame50_ele4" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        layout_width="match_parent"
+        layout_height="@dimen/_150sdp">
+
+        <ImageView
+            layout_width="@dimen/_50sdp"
+            layout_height="wrap_content"
+            layout_alignParentBottom="true"
+            layout_marginStart="@dimen/_115sdp"
+            adjustViewBounds="true"
+            src="@drawable/frame50_ele3" />
+    </RelativeLayout>
+
+
+    <ImageView
+        layout_width="@dimen/_80sdp"
+        layout_height="wrap_content"
+        layout_alignParentEnd="true"
+        layout_centerVertical="true"
+        adjustViewBounds="true"
+        src="@drawable/frame50_ele2" />
+</RelativeLayout>
