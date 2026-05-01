@@ -1,0 +1,224 @@
+<RelativeLayout 
+    id="@+id/main"
+    layout_width="match_parent"
+    layout_height="match_parent"
+    layout_gravity="center_vertical"
+    layout_marginVertical="@dimen/_20sdp">
+
+
+    <ImageView
+        layout_width="match_parent"
+        layout_height="match_parent"
+        scaleType="fitXY"
+        src="@drawable/frame46_bg" />
+
+
+    <RelativeLayout
+        layout_width="wrap_content"
+        layout_height="@dimen/_375sdp"
+        layout_centerInParent="true">
+
+        <LinearLayout
+            layout_width="match_parent"
+            layout_height="wrap_content"
+            layout_centerInParent="true"
+            layout_marginHorizontal="@dimen/_25sdp"
+            orientation="horizontal">
+
+
+            <LinearLayout
+                layout_width="0dp"
+                layout_height="wrap_content"
+                layout_weight="1"
+                orientation="vertical">
+
+
+                <FrameLayout
+                    layout_width="match_parent"
+                    layout_height="@dimen/_100sdp">
+
+                    <com.appblish.templates.TemplateShapeView
+                        id="@+id/shape1"
+                        layout_width="match_parent"
+                        layout_height="match_parent"
+                        shapeDrawable="@drawable/custom_temp46_shape1" />
+
+                    <ImageView
+                        layout_width="match_parent"
+                        layout_height="match_parent"
+                        scaleType="fitXY"
+                        src="@drawable/custom_temp46_shape1_stroke" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    layout_width="match_parent"
+                    layout_height="@dimen/_100sdp"
+                    layout_marginTop="@dimen/_15sdp">
+
+                    <com.appblish.templates.TemplateShapeView
+                        id="@+id/shape2"
+                        layout_width="match_parent"
+                        layout_height="match_parent"
+                        shapeDrawable="@drawable/custom_temp46_shape1" />
+
+                    <ImageView
+                        layout_width="match_parent"
+                        layout_height="match_parent"
+                        scaleType="fitXY"
+                        src="@drawable/custom_temp46_shape1_stroke" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    layout_width="match_parent"
+                    layout_height="@dimen/_100sdp"
+                    layout_marginTop="@dimen/_15sdp">
+
+                    <com.appblish.templates.TemplateShapeView
+                        id="@+id/shape3"
+                        layout_width="match_parent"
+                        layout_height="match_parent"
+                        shapeDrawable="@drawable/custom_temp46_shape1" />
+
+                    <ImageView
+                        layout_width="match_parent"
+                        layout_height="match_parent"
+                        scaleType="fitXY"
+                        src="@drawable/custom_temp46_shape1_stroke" />
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                layout_width="0dp"
+                layout_height="wrap_content"
+                layout_marginStart="@dimen/_10sdp"
+                layout_weight="1"
+                orientation="vertical">
+
+
+                <FrameLayout
+                    layout_width="match_parent"
+                    layout_height="@dimen/_100sdp">
+
+                    <com.appblish.templates.TemplateShapeView
+                        id="@+id/shape4"
+                        layout_width="match_parent"
+                        layout_height="match_parent"
+                        shapeDrawable="@drawable/custom_temp46_shape1" />
+
+                    <ImageView
+                        layout_width="match_parent"
+                        layout_height="match_parent"
+                        scaleType="fitXY"
+                        src="@drawable/custom_temp46_shape1_stroke" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    layout_width="match_parent"
+                    layout_height="@dimen/_100sdp"
+                    layout_marginTop="@dimen/_15sdp">
+
+                    <com.appblish.templates.TemplateShapeView
+                        id="@+id/shape5"
+                        layout_width="match_parent"
+                        layout_height="match_parent"
+                        shapeDrawable="@drawable/custom_temp46_shape1" />
+
+                    <ImageView
+                        layout_width="match_parent"
+                        layout_height="match_parent"
+                        scaleType="fitXY"
+                        src="@drawable/custom_temp46_shape1_stroke" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    layout_width="match_parent"
+                    layout_height="@dimen/_100sdp"
+                    layout_marginTop="@dimen/_15sdp">
+
+                    <com.appblish.templates.TemplateShapeView
+                        id="@+id/shape6"
+                        layout_width="match_parent"
+                        layout_height="match_parent"
+                        shapeDrawable="@drawable/custom_temp46_shape1" />
+
+                    <ImageView
+                        layout_width="match_parent"
+                        layout_height="match_parent"
+                        scaleType="fitXY"
+                        src="@drawable/custom_temp46_shape1_stroke" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            layout_width="@dimen/_90sdp"
+            layout_height="@dimen/_100sdp"
+            layout_alignParentBottom="true"
+            layout_centerHorizontal="true"
+            layout_marginBottom="@dimen/_80sdp">
+
+            <com.appblish.templates.TemplateShapeView
+                id="@+id/shape7"
+                layout_width="match_parent"
+                layout_height="match_parent"
+                shapeDrawable="@drawable/custom_temp46_shape2" />
+
+            <ImageView
+                layout_width="match_parent"
+                layout_height="match_parent"
+                scaleType="fitXY"
+                src="@drawable/custom_temp46_shape2_stroke" />
+
+        </FrameLayout>
+
+        <ImageView
+            layout_width="@dimen/_40sdp"
+            layout_height="@dimen/_40sdp"
+            layout_alignParentEnd="true"
+            layout_marginTop="@dimen/_100sdp"
+            layout_marginEnd="@dimen/_5sdp"
+            adjustViewBounds="true"
+            src="@drawable/frame46_ele3" />
+
+        <ImageView
+            layout_width="@dimen/_150sdp"
+            layout_height="@dimen/_80sdp"
+            layout_marginStart="@dimen/_5sdp"
+            layout_marginTop="@dimen/_80sdp"
+            adjustViewBounds="true"
+            src="@drawable/frame46_ele1" />
+
+
+        <ImageView
+            layout_width="@dimen/_55sdp"
+            layout_height="@dimen/_55sdp"
+            layout_alignParentEnd="true"
+            layout_marginTop="@dimen/_210sdp"
+            layout_marginEnd="@dimen/_3sdp"
+            adjustViewBounds="true"
+            padding="@dimen/_5sdp"
+            src="@drawable/frame46_ele2" />
+
+        <ImageView
+            layout_width="@dimen/_55sdp"
+            layout_height="@dimen/_55sdp"
+            layout_alignParentEnd="true"
+            layout_marginTop="@dimen/_160sdp"
+            layout_marginEnd="@dimen/_80sdp"
+            adjustViewBounds="true"
+            padding="@dimen/_5sdp"
+            src="@drawable/frame46_ele4" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
