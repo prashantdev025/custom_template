@@ -1,0 +1,119 @@
+<RelativeLayout 
+    id="@+id/main"
+    layout_width="match_parent"
+    layout_height="@dimen/_350sdp"
+    layout_gravity="center_vertical">
+
+
+    <ImageView
+        layout_width="match_parent"
+        layout_height="match_parent"
+        scaleType="fitXY"
+        src="@drawable/frame49_bg" />
+
+    <RelativeLayout
+        layout_width="@dimen/_230sdp"
+        layout_height="wrap_content"
+        layout_alignParentBottom="true"
+        layout_marginStart="@dimen/_20sdp"
+        layout_marginBottom="@dimen/_32sdp">
+
+
+        <FrameLayout
+            layout_width="@dimen/_115sdp"
+            layout_height="@dimen/_140sdp"
+            layout_marginTop="@dimen/_20sdp"
+            layout_marginStart="@dimen/_20sdp"
+            >
+
+            <com.editor.template.utils.CollageShapeView
+                id="@+id/shape1"
+                layout_width="match_parent"
+                layout_height="match_parent"
+                shapeDrawable="@drawable/custom_temp49_shape2" />
+
+            <ImageView
+                layout_width="match_parent"
+                layout_height="match_parent"
+                scaleType="fitXY"
+                src="@drawable/custom_temp49_shape2_stroke" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            layout_width="@dimen/_130sdp"
+            layout_height="@dimen/_150sdp"
+            layout_marginStart="@dimen/_100sdp"
+            layout_marginTop="@dimen/_75sdp">
+
+            <com.editor.template.utils.CollageShapeView
+                id="@+id/shape4"
+                layout_width="match_parent"
+                layout_height="match_parent"
+                shapeDrawable="@drawable/custom_temp49_shape1" />
+
+            <ImageView
+                layout_width="match_parent"
+                layout_height="match_parent"
+                scaleType="fitXY"
+                src="@drawable/custom_temp49_shape1_stroke" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        layout_width="@dimen/_50sdp"
+        layout_height="wrap_content"
+        layout_centerVertical="true"
+        adjustViewBounds="true"
+        src="@drawable/frame49_ele2" />
+
+    <ImageView
+        layout_width="@dimen/_90sdp"
+        layout_height="wrap_content"
+       layout_alignParentEnd="true"
+        adjustViewBounds="true"
+        layout_alignParentBottom="true"
+        layout_marginBottom="@dimen/_50sdp"
+        src="@drawable/frame49_ele1" />
+    <ImageView
+        layout_width="@dimen/_60sdp"
+        layout_height="@dimen/_80sdp"
+        layout_centerVertical="true"
+        adjustViewBounds="true"
+        layout_marginBottom="@dimen/_25sdp"
+        layout_marginEnd="@dimen/_60sdp"
+        layout_alignParentEnd="true"
+        layout_alignParentBottom="true"
+        src="@drawable/frame49_ele3" />
+
+    <ImageView
+        layout_width="@dimen/_20sdp"
+        layout_height="wrap_content"
+        layout_centerVertical="true"
+        adjustViewBounds="true"
+        layout_alignParentEnd="true"
+        layout_marginEnd="@dimen/_90sdp"
+        src="@drawable/frame49_ele6" />
+
+    <ImageView
+        layout_width="@dimen/_20sdp"
+        layout_height="wrap_content"
+        adjustViewBounds="true"
+        layout_marginStart="@dimen/_50sdp"
+        layout_alignParentBottom="true"
+        layout_marginBottom="@dimen/_80sdp"
+        src="@drawable/frame49_ele5" />
+    <ImageView
+        layout_width="@dimen/_35sdp"
+        layout_height="wrap_content"
+        adjustViewBounds="true"
+        layout_centerHorizontal="true"
+        layout_marginStart="@dimen/_50sdp"
+        layout_alignParentBottom="true"
+        layout_marginBottom="@dimen/_50sdp"
+        src="@drawable/frame49_ele4" />
+
+</RelativeLayout>

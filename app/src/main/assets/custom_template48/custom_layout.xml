@@ -25,7 +25,7 @@
             layout_marginTop="@dimen/_20sdp"
             elevation="@dimen/_6sdp">
 
-            <com.editor.template.utils.CollageShapeView
+            <com.appblish.templates.TemplateShapeView
                 id="@+id/shape1"
                 layout_width="match_parent"
                 layout_height="match_parent"
@@ -47,7 +47,7 @@
             layout_marginTop="@dimen/_85sdp"
             elevation="@dimen/_5sdp">
 
-            <com.editor.template.utils.CollageShapeView
+            <com.appblish.templates.TemplateShapeView
                 id="@+id/shape2"
                 layout_width="match_parent"
                 layout_height="match_parent"
@@ -69,7 +69,7 @@
             layout_marginStart="@dimen/_40sdp"
             layout_marginTop="@dimen/_minus10sdp">
 
-            <com.editor.template.utils.CollageShapeView
+            <com.appblish.templates.TemplateShapeView
                 id="@+id/shape3"
                 layout_width="match_parent"
                 layout_height="match_parent"
@@ -90,7 +90,7 @@
             layout_alignParentEnd="true"
             layout_marginEnd="@dimen/_25sdp">
 
-            <com.editor.template.utils.CollageShapeView
+            <com.appblish.templates.TemplateShapeView
                 id="@+id/shape4"
                 layout_width="match_parent"
                 layout_height="match_parent"
@@ -114,7 +114,7 @@
             layout_marginEnd="@dimen/_25sdp"
             elevation="@dimen/_5sdp">
 
-            <com.editor.template.utils.CollageShapeView
+            <com.appblish.templates.TemplateShapeView
                 id="@+id/shape5"
                 layout_width="match_parent"
                 layout_height="match_parent"
