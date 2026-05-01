@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = GridLayoutManager(this,2)
 
         // frame
-        val templateItems = (3..46).map { frameNumber ->
+        val templateItems = (3..47).map { frameNumber ->
             val resId = resources.getIdentifier(
                 "custom_temp_lv_$frameNumber", "layout", packageName
             )
