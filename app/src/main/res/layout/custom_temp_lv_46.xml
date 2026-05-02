@@ -68,7 +68,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="fitXY"
-                        android:src="@drawable/custom_temp46_shape1_stroke" />
+                        android:src="@drawable/custom_temp46_shape3_stroke" />
 
                 </FrameLayout>
 
@@ -87,7 +87,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="fitXY"
-                        android:src="@drawable/custom_temp46_shape1_stroke" />
+                        android:src="@drawable/custom_temp46_shape5_stroke" />
 
                 </FrameLayout>
 
@@ -116,7 +116,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="fitXY"
-                        android:src="@drawable/custom_temp46_shape1_stroke" />
+                        android:src="@drawable/custom_temp46_shape2_stroke" />
 
                 </FrameLayout>
 
@@ -135,7 +135,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="fitXY"
-                        android:src="@drawable/custom_temp46_shape1_stroke" />
+                        android:src="@drawable/custom_temp46_shape4_stroke" />
 
                 </FrameLayout>
 
@@ -154,7 +154,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="fitXY"
-                        android:src="@drawable/custom_temp46_shape1_stroke" />
+                        android:src="@drawable/custom_temp46_shape6_stroke" />
 
                 </FrameLayout>
 
@@ -179,7 +179,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="fitXY"
-                android:src="@drawable/custom_temp46_shape2_stroke" />
+                android:src="@drawable/custom_temp46_shape7_stroke" />
 
         </FrameLayout>
 
