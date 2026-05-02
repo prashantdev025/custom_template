@@ -21,15 +21,15 @@
             layout_height="0dp"
             layout_weight="1"
             orientation="horizontal"
-            >
+        >
 
             <FrameLayout
                 layout_width="0dp"
                 layout_weight="1"
                 layout_height="match_parent"
-                >
+            >
 
-                <com.appblish.templates.TemplateShapeView
+                <com.editor.template.utils.CollageShapeView
                     id="@+id/shape1"
                     layout_width="match_parent"
                     layout_height="match_parent"
@@ -48,9 +48,9 @@
                 rotation="15"
                 layout_marginStart="@dimen/_minus5sdp"
                 layout_height="match_parent"
-                >
+            >
 
-                <com.appblish.templates.TemplateShapeView
+                <com.editor.template.utils.CollageShapeView
                     id="@+id/shape2"
                     layout_width="match_parent"
                     layout_height="match_parent"
@@ -67,9 +67,9 @@
                 layout_width="0dp"
                 layout_weight="1"
                 layout_height="match_parent"
-                >
+            >
 
-                <com.appblish.templates.TemplateShapeView
+                <com.editor.template.utils.CollageShapeView
                     id="@+id/shape3"
                     layout_width="match_parent"
                     layout_height="match_parent"
@@ -90,16 +90,16 @@
             layout_height="0dp"
             layout_weight="1"
             orientation="horizontal"
-            >
+        >
 
             <FrameLayout
                 layout_width="0dp"
                 layout_weight="1"
                 layout_marginStart="@dimen/_minus10sdp"
                 layout_height="match_parent"
-                >
+            >
 
-                <com.appblish.templates.TemplateShapeView
+                <com.editor.template.utils.CollageShapeView
                     id="@+id/shape4"
                     layout_width="match_parent"
                     layout_height="match_parent"
@@ -116,19 +116,8 @@
                 layout_width="0dp"
                 layout_weight="1"
                 layout_height="match_parent"
-                visibility="invisible"
-                >
+            >
 
-                <com.appblish.templates.TemplateShapeView
-                    layout_width="match_parent"
-                    layout_height="match_parent"
-                    shapeDrawable="@drawable/custom_temp44_shape1" />
-
-                <ImageView
-                    layout_width="match_parent"
-                    layout_height="match_parent"
-                    scaleType="fitXY"
-                    src="@drawable/custom_temp44_shape1_stroke" />
 
             </FrameLayout>
             <FrameLayout
@@ -137,9 +126,9 @@
                 layout_marginEnd="@dimen/_minus10sdp"
                 rotation="20"
                 layout_height="match_parent"
-                >
+            >
 
-                <com.appblish.templates.TemplateShapeView
+                <com.editor.template.utils.CollageShapeView
                     id="@+id/shape5"
                     layout_width="match_parent"
                     layout_height="match_parent"
@@ -161,15 +150,15 @@
             layout_weight="1"
             layout_marginTop="@dimen/_minus5sdp"
             orientation="horizontal"
-            >
+        >
 
             <FrameLayout
                 layout_width="0dp"
                 layout_weight="1"
                 layout_height="match_parent"
-                >
+            >
 
-                <com.appblish.templates.TemplateShapeView
+                <com.editor.template.utils.CollageShapeView
                     id="@+id/shape6"
                     layout_width="match_parent"
                     layout_height="match_parent"
@@ -187,9 +176,9 @@
                 layout_weight="1"
                 rotation="15"
                 layout_height="match_parent"
-                >
+            >
 
-                <com.appblish.templates.TemplateShapeView
+                <com.editor.template.utils.CollageShapeView
                     id="@+id/shape7"
                     layout_width="match_parent"
                     layout_height="match_parent"
@@ -206,9 +195,9 @@
                 layout_width="0dp"
                 layout_weight="1"
                 layout_height="match_parent"
-                >
+            >
 
-                <com.appblish.templates.TemplateShapeView
+                <com.editor.template.utils.CollageShapeView
                     id="@+id/shape8"
                     layout_width="match_parent"
                     layout_height="match_parent"
